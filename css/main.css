@@ -1,0 +1,11 @@
+.body-page1 {
+  background-color: #FFD100;
+}
+.btn-admin {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-visitors {
+  display: flex;
+  justify-content: flex-start;
+}
