@@ -1,0 +1,45 @@
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+ header .text p {
+  font-size: 2em;
+} 
+
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+}
+
+section .container-visit {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  height: 350px;
+  margin: 40px;
+}
+
+section .container-visit .photo {
+  border-right: 2px solid black;
+  width: 50%;
+}
+
+section .container-visit .infoVisit {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
